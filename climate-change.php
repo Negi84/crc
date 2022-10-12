@@ -30,16 +30,13 @@
             bottom: 0;
             width: 100%;
         }
-        .mb-10{
-          margin-bottom: 6rem;
+        .mb-6{
+          margin-bottom: 5.25rem;
         }
         .mapboxgl-canvas {
             position: absolute;
             left: 0;
             top: -4rem!important;
-        }
-        a{
-          color:black!important;
         }
         a:hover {
             color: #0056b3;
@@ -50,31 +47,31 @@
 <body>
 <div class="container">
     <div class="row">
-        <div class="col-sm-12 col-md-12 mb-10">
+        <div class="col-sm-12 col-md-12 mb-6">
             <div class="page-title">
                 <a href="cff.php"><h1 class="lead">Climate change</h1></a>
-                <p class="sublead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis .</p>
+                <p class="sublead">Climate change refers to a change in the state of the climate that can be identified (e.g., by using statistical tests) by changes in the mean and/or the variability of its properties, and that persists for an extended period, typically decades or longer.</p>
             </div>
         </div>
     </div>
 </div>
-<div class="container-fluid mb-10">
+<div class="container-fluid">
   <div class="row">
       <div class="col-md-3 col-sm-12 text-center">
         <div class="text-box pb-3">
         <img src="bootstrap/images/cc-1.jpg" alt="">
-          <h3> <a href=""> What is <span style="color:#007bff">climate change </span> and how does it affect us? </a> </h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
+          <h3> <a href=""> What is climate change  and how does it affect us? </a> </h3>
+          <p>Climate change may be due to natural internal processes or external forcings such as modulations of the solar cycles, volcanic eruptions, and persistent anthropogenic changes in the composition of the atmosphere or in land use.</p>
         </div>
         <div class="text-box pb-3">
         <img src="bootstrap/images/cc-2.webp" alt="">
-          <h3><a href="#">Why is the <span style="color:#007bff">Climate changing?</span></a></h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
+          <h3><a href="#">Why is the Climate changing?</a></h3>
+          <p>There are two main types of external sources leading to climate change. Some external factors occur naturally and contribute to the overall natural variability of the climate system, such as solar radiation and volcanism </p>
         </div>
         <div class="text-box pb-3">
         <img src="bootstrap/images/cc-3.webp" alt="">
-          <h3> <a href="">Impact of <span style="color:#007bff"> climate changes </span></a> </h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+          <h3> <a href="impact-of-climate-changes">Impact of  climate changes </a> </h3>
+          <p>The planet's oceans and glaciers have also experienced changes—oceans are warming and the increased warming in the Arctic has contributed to melting permafrost, glacial retreat and sea ice loss cause sea levels to rise, threatening coastal and island communities.</p>
         </div>
       </div>
       <div class="col-md-6 col-sm-12 ">
@@ -88,18 +85,18 @@
       <div class="col-md-3 col-sm-12 text-center">
         <div class="text-box pb-3">
         <img src="bootstrap/images/cc-4.jpg" alt="">
-          <h3> <a href="">Severity of <span style="color:#007bff"> Climate Change </span></a></h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+          <h3> <a href="">Severity of  Climate Change </a></h3>
+          <p>In a series of UN reports, thousands of scientists and government experts agreed that limiting the global temperature increase to no more than 1.5 °C would help avoid the worst climate impacts and preserve a liveable climate. However, based on current national climate plans, global warming is projected to reach 3.2 °C by the end of the century.</p>
         </div>
         <div class="text-box pb-3">
         <img src="bootstrap/images/cc-5.webp" alt="">
-          <h3><a href="#"> <span style="color:#007bff">Climate Change</span> adaptation and mitigation </a></h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
+          <h3><a href="#"> Climate Change adaptation and mitigation </a></h3>
+          <p>Three broad categories of action against Climate Change are: cutting emissions, adapting to climate impacts, and financing required adjustments.  2022 is a critical year for action on mitigation and adaptation.</p>
         </div>
         <div class="text-box">
         <img src="bootstrap/images/cc-6.jpg" alt="">
-          <h3> <a href=""> <span style="color:#007bff"> Climate change </span> vulnerability</a></h3>
-          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
+          <h3> <a href="">  Climate change  vulnerability</a></h3>
+          <p> The severity of impacts from extreme and non-extreme weather and climate events is highly dependent on the degree of vulnerability and exposure to these events. </p>
         </div>
       </div>
     </div>
