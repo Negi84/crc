@@ -37,17 +37,17 @@
             font-weight: 100!important;
         }
         .card-title{
-            color : #08b6e2!important;
+            color : #1686ff!important;
             font-weight: bolder;
             letter-spacing: 1px;
         }
         a.nav-link{
-            color : #08b6e2!important;
+            color : #1686ff!important;
             font-weight: 600;
         }
         a.nav-link.active{
             color : white!important;
-            background: #08b6e2!important;
+            background: #1686ff!important;
         }
         iframe{
             width: 100%;

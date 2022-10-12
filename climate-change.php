@@ -3,7 +3,6 @@
     <head>
         <title>Climate Change</title>
         <meta charset="utf-8">
-        <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
         <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="bootstrap/css/main.css">
         <script src="bootstrap/js/jquery.slim.min.js"></script>
@@ -23,33 +22,25 @@
         .mapboxgl-ctrl-bottom-left{
           display: none!important;
         }
-        #map {
-            position: absolute;
-            top: -93px!important;
-            left:0px!important;
-            bottom: 0;
-            width: 100%;
-        }
-        .mb-6{
-          margin-bottom: 5.25rem;
-        }
         .mapboxgl-canvas {
             position: absolute;
             left: 0;
-            top: -4rem!important;
+            top: -25%!important;
         }
         a:hover {
             color: #0056b3;
             text-decoration: none!important;}
-
+        .lead{
+          color:#007bff!important;
+        }
         </style>
       </head>
 <body>
 <div class="container">
     <div class="row">
-        <div class="col-sm-12 col-md-12 mb-6">
+        <div class="col-sm-12 col-md-12 mb-2">
             <div class="page-title">
-                <a href="cff.php"><h1 class="lead">Climate change</h1></a>
+                <a href="javascript:void(0)"><h1 class="lead">Climate change</h1></a>
                 <p class="sublead">Climate change refers to a change in the state of the climate that can be identified (e.g., by using statistical tests) by changes in the mean and/or the variability of its properties, and that persists for an extended period, typically decades or longer.</p>
             </div>
         </div>
@@ -60,12 +51,12 @@
       <div class="col-md-3 col-sm-12 text-center">
         <div class="text-box pb-3">
         <img src="bootstrap/images/cc-1.jpg" alt="">
-          <h3> <a href=""> What is climate change  and how does it affect us? </a> </h3>
+          <h3> <a href="what-is-climate-change-and-how-does-it-affect-us"> What is climate change  and how does it affect us? </a> </h3>
           <p>Climate change may be due to natural internal processes or external forcings such as modulations of the solar cycles, volcanic eruptions, and persistent anthropogenic changes in the composition of the atmosphere or in land use.</p>
         </div>
         <div class="text-box pb-3">
         <img src="bootstrap/images/cc-2.webp" alt="">
-          <h3><a href="#">Why is the Climate changing?</a></h3>
+          <h3><a href="why-is-the-climate-changing">Why is the Climate changing?</a></h3>
           <p>There are two main types of external sources leading to climate change. Some external factors occur naturally and contribute to the overall natural variability of the climate system, such as solar radiation and volcanism </p>
         </div>
         <div class="text-box pb-3">
@@ -85,17 +76,17 @@
       <div class="col-md-3 col-sm-12 text-center">
         <div class="text-box pb-3">
         <img src="bootstrap/images/cc-4.jpg" alt="">
-          <h3> <a href="">Severity of  Climate Change </a></h3>
+          <h3> <a href="severity-of-climate-change">Severity of  Climate Change </a></h3>
           <p>In a series of UN reports, thousands of scientists and government experts agreed that limiting the global temperature increase to no more than 1.5 °C would help avoid the worst climate impacts and preserve a liveable climate. However, based on current national climate plans, global warming is projected to reach 3.2 °C by the end of the century.</p>
         </div>
         <div class="text-box pb-3">
         <img src="bootstrap/images/cc-5.webp" alt="">
-          <h3><a href="#"> Climate Change adaptation and mitigation </a></h3>
+          <h3><a href="climate-change-adaptation-cand-mitigation"> Climate Change adaptation and mitigation </a></h3>
           <p>Three broad categories of action against Climate Change are: cutting emissions, adapting to climate impacts, and financing required adjustments.  2022 is a critical year for action on mitigation and adaptation.</p>
         </div>
         <div class="text-box">
         <img src="bootstrap/images/cc-6.jpg" alt="">
-          <h3> <a href="">  Climate change  vulnerability</a></h3>
+          <h3> <a href="climate-change-vulnerability">  Climate change  vulnerability</a></h3>
           <p> The severity of impacts from extreme and non-extreme weather and climate events is highly dependent on the degree of vulnerability and exposure to these events. </p>
         </div>
       </div>
