@@ -10,11 +10,11 @@ body {
 .top-right{margin-left: -50px;margin-top: -35px;}
 .bottom-right{margin-left: -85px;}
 .text-box img {width:250px;display: block;margin: auto;padding-bottom: 10px;height: 100px;}
-.content img{margin: auto;display: block;padding-top: 10px;}
+.content im8margin: auto;display: block;padding-top: 10px;}
 .content img {background-position: center;    width: 95%;
     padding-left: 10px;
-    margin-top: -15px;} */
-    .bg-of-str {
+    margin-top: -15p5} */
+    .bg-of-s8 {
         display: none;
     }
 
@@ -67,11 +67,11 @@ body {
     }
 
     .text-box img {
-        width: 150px;
+        width: 80px;
         display: block;
         margin: auto;
-        padding-bottom: 10px;
-        height: 150px;
+        padding-bottom: 5px;
+        height: 80px;
         object-fit: cover;
         border-radius: 30px;
         filter: drop-shadow(2px 4px 8px #888);
@@ -102,18 +102,19 @@ body {
         text-align: center;
         width: 50%;
         margin: auto;
-        padding-bottom: 20px;
+        font-size: 0.8em;
     }
 
     .text-box h3 {
         text-transform: uppercase;
-        font-size: 16px;
+        font-size: 1em;
         font-weight: 700;
         text-align: center;
+        margin-bottom: 0.2em;
     }
 
     .text-box p {
-        font-size: 14px;
+        font-size: 0.7em;
         text-align: center;
     }
 
@@ -181,11 +182,11 @@ body {
     }
 
     .text-box img {
-        width: 150px;
+        width: 80px;
         display: block;
         margin: auto;
-        padding-bottom: 10px;
-        height: 150px;
+        padding-bottom: 5px;
+        height: 80px;
         object-fit: cover;
         border-radius: 30px;
         filter: drop-shadow(2px 4px 8px #888);
@@ -216,18 +217,19 @@ body {
         text-align: center;
         width: 50%;
         margin: auto;
-        padding-bottom: 20px;
+        font-size: 0.8em;
     }
 
     .text-box h3 {
         text-transform: uppercase;
-        font-size: 16px;
+        font-size: 1em;
         font-weight: 700;
         text-align: center;
+        margin-bottom: 0.2em;
     }
 
     .text-box p {
-        font-size: 14px;
+        font-size: 0.7em;
         text-align: center;
     }
 
@@ -293,11 +295,11 @@ body {
     }
 
     .text-box img {
-        width: 150px;
+        width: 80px;
         display: block;
         margin: auto;
-        padding-bottom: 10px;
-        height: 150px;
+        padding-bottom: 5px;
+        height: 80px;
         object-fit: cover;
         border-radius: 30px;
         filter: drop-shadow(2px 4px 8px #888);
@@ -326,20 +328,21 @@ body {
 
     p.sublead {
         text-align: center;
-        width: 60%;
+        width: 50%;
         margin: auto;
-        padding-bottom: 20px;
+        font-size: 0.8em;
     }
 
     .text-box h3 {
         text-transform: uppercase;
-        font-size: 16px;
+        font-size: 1em;
         font-weight: 700;
         text-align: center;
+        margin-bottom: 0.2em;
     }
 
     .text-box p {
-        font-size: 14px;
+        font-size: 0.7em;
         text-align: center;
     }
 
@@ -406,11 +409,11 @@ body {
     }
 
     .text-box img {
-        width: 150px;
+        width: 80px;
         display: block;
         margin: auto;
-        padding-bottom: 10px;
-        height: 150px;
+        padding-bottom: 5px;
+        height: 80px;
         object-fit: cover;
         border-radius: 30px;
         filter: drop-shadow(2px 4px 8px #888);
@@ -439,20 +442,21 @@ body {
 
     p.sublead {
         text-align: center;
-        width: 60%;
+        width: 50%;
         margin: auto;
-        padding-bottom: 20px;
+        font-size: 0.8em;
     }
 
     .text-box h3 {
         text-transform: uppercase;
-        font-size: 20px;
-        font-weight: 900;
+        font-size: 1em;
+        font-weight: 700;
         text-align: center;
+        margin-bottom: 0.2em;
     }
 
     .text-box p {
-        font-size: 16px;
+        font-size: 0.7em;
         text-align: center;
     }
 
@@ -518,11 +522,11 @@ body {
     }
 
     .text-box img {
-        width: 150px;
+        width: 80px;
         display: block;
         margin: auto;
-        padding-bottom: 10px;
-        height: 150px;
+        padding-bottom: 5px;
+        height: 80px;
         object-fit: cover;
         border-radius: 30px;
         filter: drop-shadow(2px 4px 8px #888);
@@ -551,20 +555,21 @@ body {
 
     p.sublead {
         text-align: center;
-        width: 60%;
+        width: 50%;
         margin: auto;
-        padding-bottom: 20px;
+        font-size: 0.8em;
     }
 
     .text-box h3 {
         text-transform: uppercase;
-        font-size: 20px;
-        font-weight: 900;
+        font-size: 1em;
+        font-weight: 700;
         text-align: center;
+        margin-bottom: 0.2em;
     }
 
     .text-box p {
-        font-size: 16px;
+        font-size: 0.7em;
         text-align: center;
     }
 
