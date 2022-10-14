@@ -48,7 +48,7 @@
         }
         .climate-change-background, .climate-change-background img{
           width: 100%;
-          height: 100%;
+          min-height: 100%;
         }
         .climate-change-background{
           position:absolute;
