@@ -36,33 +36,46 @@
         }
         .head-title{
           text-align: center;
-          font-size: 1.5em;
+          font-size: 2em;
           text-transform: uppercase;
           font-weight: 900;
-          font-family: sans-serif;
+          font-family:'Oswald', sans-serif;
         }
         a{
           font-family: sans-serif;
           color:#1d90bf;
+          font-weight: 800;
         }
         .climate-change-background, .climate-change-background img{
           width: 100%;
-          min-height: 100%;
+          height: 100%;
         }
         .climate-change-background{
           position:absolute;
         }
+        .heading-green{
+          color: #51ca51;
+        }
+        .head-title div{
+          color: #57b9e3;
+        }
+        .head-title div span{
+          color: #1e9dd0;
+        }
+        .mapboxgl-canvas {
+        left: -5%!important;
+      }
         </style>
       </head>
 <body>
   <div class="climate-change-background">
     <img src="bootstrap/images/background.png" alt="">
   </div>
-<div class="container">
+<div class="container mb-3">
     <div class="row">
         <div class="col-sm-12 col-md-12 mb-2">
             <div class="">
-                <a class="head-title" href="javascript:void(0)"><div>Climate change</div></a>
+                <a class="head-title" href="javascript:void(0)"><div>Climate <span>change</span> </div></a>
                 <p class="sublead">Climate change refers to a change in the state of the climate that can be identified (e.g., by using statistical tests) by changes in the mean and/or the variability of its properties, and that persists for an extended period, typically decades or longer.</p>
             </div>
         </div>
@@ -70,52 +83,69 @@
 </div>
 <div class="container-fluid">
   <div class="row">
+
       <div class="col-md-4 col-sm-12 text-center">
-        <div class="text-box pb-2">
-        <img src="bootstrap/images/1.png" alt="">
-          <h3 class="pt-2"> <a href="what-is-climate-change-and-how-does-it-affect-us"> What is climate change  and how does it affect us? </a> </h3>
-          <p>Climate change may be due to natural internal processes or external forcings such as modulations of the solar cycles, volcanic eruptions, and persistent anthropogenic changes in the composition of the atmosphere or in land use.</p>
-        </div>
-        <div class="text-box pb-2">
-        <img src="bootstrap/images/2.png" alt="">
-          <h3 class="pt-2"><a href="why-is-the-climate-changing">Why is the Climate changing?</a></h3>
-          <p>There are two main types of external sources leading to climate change. Some external factors occur naturally and contribute to the overall natural variability of the climate system, such as solar radiation and volcanism </p>
-        </div>
-       
-      </div>
-      <div class="col-md-4 col-sm-12 ">
-        <div class="choose-box">
-          <div class="inner-box">
-            <div class="content" id="map">
-            </div>
+
+        <div class="d-flex flex-row text-box pb-2">
+          <img class="mr-3" src="bootstrap/images/4.png" alt="">
+          <div class="d-flex flex-column">
+            <h3 class="pt-2"> <a href="what-is-climate-change-and-how-does-it-affect-us"> What is climate change  and <br><span class="heading-green">how does it affect us?</span>  </a> </h3>
+            <p>Climate change may be due to natural internal processes or external forcings such as modulations of the solar cycles, volcanic eruptions, and persistent anthropogenic changes in the composition of the atmosphere or in land use.</p>
           </div>
         </div>
+
+        <div class="d-flex flex-row  text-box pb-2">
+          <img class="mr-3" src="bootstrap/images/5.png" alt="">
+          <div class="d-flex flex-column">
+            <h3 class="pt-2"><a href="why-is-the-climate-changing">Why is the <br> <span class="heading-green">Climate changing?</span> </a></h3>
+            <p>There are two main types of external sources leading to climate change. Some external factors occur naturally and contribute to the overall natural variability of the climate system, such as solar radiation and volcanism </p>
+          </div>
+        </div>
+
+        <div class="d-flex flex-row text-box pb-2">
+          <img class="mr-3" src="bootstrap/images/1.png" alt="">
+          <div class="d-flex flex-column">
+            <h3 class="pt-2"> <a href="impact-of-climate-changes">Impact of  <br> <span class="heading-green">climate changes </span> </a> </h3>
+            <p>The planet's oceans and glaciers have also experienced changes—oceans are warming and the increased warming in the Arctic has contributed to melting permafrost, glacial retreat and sea ice loss cause sea levels to rise, threatening coastal and island communities.</p>
+          </div>
       </div>
+
+      </div>
+
+      <div class="d-flex flex-row col-md-4 col-sm-12 ">
+            <div class="content" id="map">
+            </div>
+      </div>
+
       <div class="col-md-4 col-sm-12 text-center">
-        <div class="text-box pb-2">
-        <img src="bootstrap/images/4.png" alt="">
-          <h3 class="pt-2"> <a href="severity-of-climate-change">Severity of  Climate Change </a></h3>
-          <p>In a series of UN reports, thousands of scientists and government experts agreed that limiting the global temperature increase to no more than 1.5 °C would help avoid the worst climate impacts and preserve a liveable climate.</p>
+        <div class="d-flex flex-row text-box pb-2">
+          <div class="d-flex flex-column">
+            <h3 class="pt-2"> <a href="severity-of-climate-change">Severity of <br> <span class="heading-green">Climate Change</span> </a></h3>
+            <p>In a series of UN reports, thousands of scientists and government experts agreed that limiting the global temperature increase to no more than 1.5 °C would help avoid the worst climate impacts and preserve a liveable climate.</p>
+          </div>
+          <img class="ml-3" src="bootstrap/images/3.png" alt="">
         </div>
-        <div class="text-box pb-2">
-        <img src="bootstrap/images/5.png" alt="">
-          <h3 class="pt-2"><a href="climate-change-adaptation-cand-mitigation"> Climate Change adaptation and mitigation </a></h3>
-          <p>Three broad categories of action against Climate Change are: cutting emissions, adapting to climate impacts, and financing required adjustments.  2022 is a critical year for action on mitigation and adaptation.</p>
+
+        <div class="d-flex flex-row text-box pb-2">
+          <div class="d-flex flex-column">
+            <h3 class="pt-2"><a href="climate-change-adaptation-cand-mitigation"> Climate Change <br> <span class="heading-green">adaptation and mitigation</span>  </a></h3>
+            <p>Three broad categories of action against Climate Change are: cutting emissions, adapting to climate impacts, and financing required adjustments.  2022 is a critical year for action on mitigation and adaptation.</p>
+          </div>
+          <img class="ml-3" src="bootstrap/images/6.png" alt="">
         </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-6 text-box pb-2">
-        <img src="bootstrap/images/3.png" alt="">
-          <h3 class="pt-2"> <a href="impact-of-climate-changes">Impact of  climate changes </a> </h3>
-          <p>The planet's oceans and glaciers have also experienced changes—oceans are warming and the increased warming in the Arctic has contributed to melting permafrost, glacial retreat and sea ice loss cause sea levels to rise, threatening coastal and island communities.</p>
-      </div>
-      <div class="col-6 text-box">
-        <img src="bootstrap/images/6.png" alt="">
-          <h3 class="pt-2"> <a href="climate-change-vulnerability">  Climate change  vulnerability</a></h3>
+
+        <div class="d-flex flex-row text-box">
+        <div class="d-flex flex-column">
+          <h3 class="pt-2"> <a href="climate-change-vulnerability">  Climate change <br> <span class="heading-green">vulnerability</span> </a></h3>
           <p> The severity of impacts from extreme and non-extreme weather and climate events is highly dependent on the degree of vulnerability and exposure to these events. </p>
         </div>
+        <img class="ml-3" src="bootstrap/images/2.png" alt="">
+      </div>
+
+      </div>
+
     </div>
+
 </div>
 <script>
 	mapboxgl.accessToken = 'pk.eyJ1IjoidmF5dWFuYW5kYSIsImEiOiJjbDkydDV0MmcwNjlmNDFvN29raXdzcXFwIn0.asZzmJPtFaQ0YX02b0cEFA';
