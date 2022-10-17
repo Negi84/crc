@@ -12,10 +12,14 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
       </head>
       <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
         body{
-            font-family: Arial, Helvetica, sans-serif;
-            padding : 2rem 1rem;
-            background-color: azure;
+            background-image: url(bootstrap/images/sub-module.png);
+            height: 100%;
+            width: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: sans-serif;
         }
         .card{
             background-color: transparent;
@@ -37,36 +41,44 @@
             font-weight: 100!important;
         }
         .card-title{
-            color : #1686ff!important;
+            color : #238095!important;
             font-weight: bolder;
-            letter-spacing: 1px;
         }
         a.nav-link{
-            color : #1686ff!important;
+            color : #238095!important;
             font-weight: 600;
+            font-family:'Oswald', sans-serif;
+            font-size: 16px;
+            padding-top: 4px;
+            padding-bottom: 4px;
+            padding-left: 8px;
+            padding-right: 8px;
         }
         a.nav-link.active{
             color : white!important;
-            background: #1686ff!important;
+            background: #238095!important;
+            font-size: 16px;
+            padding-top: 4px;
+            padding-bottom: 4px;
+            padding-left: 8px;
+            padding-right: 8px;
         }
         iframe{
             width: 100%;
             height:auto;
         }
         .main{
-            position: fixed;
+            position: absolute;
             height: 100%;
-            width: 75%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            width: 100%;
         }
         .main img{
-            width: 55%;
-            opacity: 0.3;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
         }
-        .text-605f5f{
-            color:#605f5f;
+        .text-238095{
+            color:#238095;
         }
         .nav-link{
             font-family:'Times New Roman', Times, serif;
@@ -92,32 +104,45 @@
             padding: 3px 10px;
             border-radius: 10px;
         }
+        .tab-pane p{
+            color:#238095;
+            padding: 1rem;
+            background: #fcf2d8;
+            border-radius: 10px
+        }
+        .reference-div{
+            overflow: auto;
+            max-height: 95vh;
+        }
+        .reference-div::-webkit-scrollbar {
+            display: none;}
+        .sub-module-nav-img{
+            width: 14%;
+            height: 14%;
+        }
       </style>
-<body>
-    <div class="main">
-        <img src="bootstrap/images/earth-background.png" alt="">
-    </div>
+<body class="py-3">
    <div class="d-flex">
-    <div class="col-9 align-self-center">
-        <div class="d-flex flex-column card card-body p-3 px-5 mb-5 shadow-lg">
+    <div class="col-9">
+        <div class="d-flex flex-column p-3 px-5 mb-4">
             <h1 class="pb-4 main-header card-title">
             Why is the Climate changing?
             </h1>
-            <div class="text-justify fs-18 pb-5 lh-1-8 card-text text-605f5f">
+            <div class="text-justify fs-18 pb-3 lh-1-8 card-text text-238095">
             There have been previous periods of climate change, but the current changes are distinctly more rapid and not due to natural causes.    Instead, they are caused by the emission of greenhouse gases, mostly carbon dioxide (CO2) and methane. Burning fossil fuels for energy production creates most of these emissions. Certain agricultural practices, industrial processes, transport, buildings, landfills, and forest loss are additional sources.  Greenhouse gases are transparent to sunlight, allowing it to warm the Earth's surface. When the earth emits this heat as infrared radiation, it is absorbed by the gases, trapping the heat near the earth's surface and causing global warming and climate change.
-        </div>
+            </div>
 
-        <div class="text-justify fs-18 pb-5 lh-1-8 card-text text-605f5f">
-        It is unequivocal that human influence has warmed the atmosphere, ocean and land. Widespread and rapid changes in the atmosphere, ocean, cryosphere, and biosphere have occurred. (cc. AR6_WGI_SPM)
+            <div class="text-justify fs-18 pb-0 lh-1-8 card-text text-238095">
+            It is unequivocal that human influence has warmed the atmosphere, ocean and land. Widespread and rapid changes in the atmosphere, ocean, cryosphere, and biosphere have occurred. (cc. AR6_WGI_SPM)
 
-        Human activities are estimated to have caused approximately 1.0°C of global warming5 above pre-industrial levels, with a likely range of 0.8°C to 1.2°C. Global warming is likely to reach 1.5°C between 2030 and 2052 if it continues to increase at the current rate. (cc. SR15)
+            Human activities are estimated to have caused approximately 1.0°C of global warming5 above pre-industrial levels, with a likely range of 0.8°C to 1.2°C. Global warming is likely to reach 1.5°C between 2030 and 2052 if it continues to increase at the current rate. (cc. SR15)
+            </div>
         </div>
-        </div>
-        </div>
-    <div class="col-3 ">
-            <div class="card shadow-lg">
+    </div>
+    <div class="col-3 my-3 reference-div">
+            <div class="card bg-white">
                 <div class="card-body">
-                    <div class="card-title text-center reference-title">
+                    <div class="card-title text-center reference-title text-uppercase">
                         Reference
                     </div>
                     <hr>
