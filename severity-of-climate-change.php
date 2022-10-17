@@ -8,8 +8,9 @@
         <link rel="stylesheet" href="bootstrap/css/impact-of-climate-changes.css">
         <link href="https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.css" rel="stylesheet">
         <script src="https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
       </head>
       <style>
         @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
@@ -120,6 +121,28 @@
             width: 14%;
             height: 14%;
         }
+        iframe.ext-links{
+            width: 100%;
+            height: 100%;
+        }
+        .modal-dialog{
+            max-width:80%;
+            max-height:80%;
+        }
+        .border-radius-10px{
+            border-radius: 10px;
+        }
+        .modal-backdrop.in {
+	        opacity: 0.6;}
+        .modal-content{
+            height: 100%!important;
+        }
+        .modal-dialog{
+            height:100%!important;
+        }
+        .cursor-pointer{
+            cursor: pointer;
+        }
       </style>
 <body class="py-3">
    <div class="d-flex">
@@ -146,6 +169,47 @@
                     <hr/>
                     <div>
                         <div class="card-text reference-links">
+                        <a  class="cursor-pointer" data-toggle="modal" data-target="#carbonMap">The Carbon Map</a>
+                        <a  class="cursor-pointer" data-toggle="modal" data-target="#dhaka">Dhaka ~ Climate Central</a>
+                        <a  class="cursor-pointer" data-toggle="modal" data-target="#mumbai">Mumbai ~ Climate Central</a>
+                        <a  class="cursor-pointer" data-toggle="modal" data-target="#dubai">Dubai ~ Climate Central</a>
+                        <a  class="cursor-pointer" data-toggle="modal" data-target="#russia">Russia ~ Climate Central</a>
+                        <div class="modal border-radius-10px fade show" id="carbonMap" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <iframe class="ext-links border-radius-10px" allow="fullscreen 'src'" frameBorder="0" src="https://www.carbonmap.org/#SeaLevel" title="Climate Central | Comparison: long-term sea level outcomes">
+                                    </iframe>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal border-radius-10px fade show" id="dhaka" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <iframe class="ext-links border-radius-10px" src="https://picturing.climatecentral.org/location/23.762466,90.3763871/embed?screenshot=false&header=true&labels=true&range=false&arrows=false&percent=50&left=1.5&right=3" title="Embed Dhaka Sea Level Rise Comparison" frameborder="0"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal border-radius-10px fade show" id="mumbai" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                <iframe class="ext-links border-radius-10px" src="https://picturing.climatecentral.org/location/18.9269015,72.8304976/embed?screenshot=false&header=true&labels=true&range=false&arrows=false&percent=50&left=1.5&right=3" title="Embed Mumbai Sea Level Rise Comparison" frameborder="0"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal border-radius-10px fade show" id="dubai" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                <iframe class="ext-links border-radius-10px" src="https://picturing.climatecentral.org/location/25.197197,55.2721824/embed?screenshot=false&header=true&labels=true&range=false&arrows=false&percent=50&left=1.5&right=3" title="Embed Dubai Sea Level Rise Comparison" frameborder="0"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal border-radius-10px fade show" id="russia" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                <iframe class="ext-links border-radius-10px" src="https://picturing.climatecentral.org/location/59.939811,30.3145594/embed?screenshot=false&header=true&labels=true&range=false&arrows=false&percent=50&left=1.5&right=3" title="Embed St. Petersburg Sea Level Rise Comparison" frameborder="0"></iframe>
+                                </div>
+                            </div>
+                        </div>
                         <a href="https://climate.nasa.gov/images-of-change/?id=804#804-severe-monsoon-rains-cause-catastrophic-flooding-in-pakistan" target="_blank">https://climate.nasa.gov/images-of-change/?id=804#804-severe-monsoon-rains-cause-catastrophic-flooding-in-pakistan</a>
                         <a href="https://climate.nasa.gov/images-of-change/?id=803#803-declining-peyto-glacier-canada" target="_blank">https://climate.nasa.gov/images-of-change/?id=803#803-declining-peyto-glacier-canada</a>
                         </div>
