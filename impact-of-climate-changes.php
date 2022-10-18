@@ -143,6 +143,32 @@
         .cursor-pointer{
             cursor: pointer;
         }
+        .iframe-link{
+            color : #238095!important;
+            font-weight: 600;
+            font-family:'Oswald', sans-serif;
+            font-size: 16px;
+            padding-top: 4px;
+            padding-bottom: 4px;
+            padding-left: 8px;
+            padding-right: 8px;
+            border:transparent;
+            border-radius: 10px;
+        }
+        .iframe-link:hover{
+            background-color: #238095;
+            color: ghostwhite!important;
+            transition: background-color 1s ease, color 1s ease;
+        }
+        .close{
+            position: absolute;
+            z-index: 999;
+            top: -15px;
+            left: 101%;
+            color: white;
+            font-size: 4.8rem;
+            opacity: 0.9;
+        }
       </style>
 <body class="py-3">
    <div class="d-flex">
@@ -232,11 +258,14 @@
                     <div>
                         <div class="card-text reference-links">
 
-                        <a  class="cursor-pointer" data-toggle="modal" data-target="#SearLevelRiseAndCoastalFloodRiskMaps">Sea level rise and coastal flood risk maps -- button global screening tool by Climate Central</a>
+                        <button  class="cursor-pointer iframe-link" data-toggle="modal" data-target="#SearLevelRiseAndCoastalFloodRiskMaps">Sea level rise and coastal flood risk maps -- button global screening tool by Climate Central</button>
 
                         <!-- Modal -->
                         <div class="modal border-radius-10px fade show" id="SearLevelRiseAndCoastalFloodRiskMaps" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered" role="document">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
                                 <div class="modal-content">
                                     <iframe class="ext-links border-radius-10px" allow="fullscreen 'src'" frameBorder="0" src="https://coastal.climatecentral.org/embed/map/11/103.8267/1.3422/?theme=warming&map_type=multicentury_slr_comparison&basemap=simple&elevation_model=best_available&lockin_model=levermann_2013&temperature_unit=C&warming_comparison=%5B%224.0%22%2C%224.0%22%5D" title="Climate Central | Comparison: long-term sea level outcomes">
                                     </iframe>

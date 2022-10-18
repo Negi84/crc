@@ -143,6 +143,33 @@
         .cursor-pointer{
             cursor: pointer;
         }
+        .iframe-link{
+            color : #238095!important;
+            font-weight: 600;
+            font-family:'Oswald', sans-serif;
+            font-size: 16px;
+            padding-top: 4px;
+            padding-bottom: 4px;
+            padding-left: 8px;
+            padding-right: 8px;
+            border:transparent;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        .iframe-link:hover{
+            background-color: #238095;
+            color: ghostwhite!important;
+            transition: background-color 1s ease, color 1s ease;
+        }
+        .close{
+            position: absolute;
+            z-index: 999;
+            top: -15px;
+            left: 101%;
+            color: white;
+            font-size: 4.8rem;
+            opacity: 0.9;
+        }
       </style>
 <body class="py-3">
    <div class="d-flex">
@@ -169,13 +196,16 @@
                     <hr/>
                     <div>
                         <div class="card-text reference-links">
-                        <a  class="cursor-pointer" data-toggle="modal" data-target="#carbonMap">The Carbon Map</a>
-                        <a  class="cursor-pointer" data-toggle="modal" data-target="#dhaka">Dhaka ~ Climate Central</a>
-                        <a  class="cursor-pointer" data-toggle="modal" data-target="#mumbai">Mumbai ~ Climate Central</a>
-                        <a  class="cursor-pointer" data-toggle="modal" data-target="#dubai">Dubai ~ Climate Central</a>
-                        <a  class="cursor-pointer" data-toggle="modal" data-target="#russia">Russia ~ Climate Central</a>
+                        <button class="cursor-pointer iframe-link" data-toggle="modal" data-target="#carbonMap">The Carbon Map</button>
+                        <button class="cursor-pointer iframe-link" data-toggle="modal" data-target="#dhaka">Dhaka ~ Climate Central</button>
+                        <button class="cursor-pointer iframe-link" data-toggle="modal" data-target="#mumbai">Mumbai ~ Climate Central</button>
+                        <button class="cursor-pointer iframe-link" data-toggle="modal" data-target="#dubai">Dubai ~ Climate Central</button>
+                        <button class="cursor-pointer iframe-link" data-toggle="modal" data-target="#russia">Russia ~ Climate Central</button>
                         <div class="modal border-radius-10px fade show" id="carbonMap" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered" role="document">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
                                 <div class="modal-content">
                                     <iframe class="ext-links border-radius-10px" allow="fullscreen 'src'" frameBorder="0" src="https://www.carbonmap.org/#SeaLevel" title="Climate Central | Comparison: long-term sea level outcomes">
                                     </iframe>
@@ -184,6 +214,9 @@
                         </div>
                         <div class="modal border-radius-10px fade show" id="dhaka" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered" role="document">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
                                 <div class="modal-content">
                                     <iframe class="ext-links border-radius-10px" src="https://picturing.climatecentral.org/location/23.762466,90.3763871/embed?screenshot=false&header=true&labels=true&range=false&arrows=false&percent=50&left=1.5&right=3" title="Embed Dhaka Sea Level Rise Comparison" frameborder="0"></iframe>
                                 </div>
@@ -191,6 +224,9 @@
                         </div>
                         <div class="modal border-radius-10px fade show" id="mumbai" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered" role="document">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
                                 <div class="modal-content">
                                 <iframe class="ext-links border-radius-10px" src="https://picturing.climatecentral.org/location/18.9269015,72.8304976/embed?screenshot=false&header=true&labels=true&range=false&arrows=false&percent=50&left=1.5&right=3" title="Embed Mumbai Sea Level Rise Comparison" frameborder="0"></iframe>
                                 </div>
@@ -198,6 +234,9 @@
                         </div>
                         <div class="modal border-radius-10px fade show" id="dubai" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered" role="document">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
                                 <div class="modal-content">
                                 <iframe class="ext-links border-radius-10px" src="https://picturing.climatecentral.org/location/25.197197,55.2721824/embed?screenshot=false&header=true&labels=true&range=false&arrows=false&percent=50&left=1.5&right=3" title="Embed Dubai Sea Level Rise Comparison" frameborder="0"></iframe>
                                 </div>
@@ -205,6 +244,9 @@
                         </div>
                         <div class="modal border-radius-10px fade show" id="russia" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered" role="document">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
                                 <div class="modal-content">
                                 <iframe class="ext-links border-radius-10px" src="https://picturing.climatecentral.org/location/59.939811,30.3145594/embed?screenshot=false&header=true&labels=true&range=false&arrows=false&percent=50&left=1.5&right=3" title="Embed St. Petersburg Sea Level Rise Comparison" frameborder="0"></iframe>
                                 </div>

@@ -143,6 +143,33 @@
         .cursor-pointer{
             cursor: pointer;
         }
+        .iframe-link{
+            color : #238095!important;
+            font-weight: 600;
+            font-family:'Oswald', sans-serif;
+            font-size: 16px;
+            padding-top: 4px;
+            padding-bottom: 4px;
+            padding-left: 8px;
+            padding-right: 8px;
+            border:transparent;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        .iframe-link:hover{
+            background-color: #238095;
+            color: ghostwhite!important;
+            transition: background-color 1s ease, color 1s ease;
+        }
+        .close{
+            position: absolute;
+            z-index: 999;
+            top: -15px;
+            left: 101%;
+            color: white;
+            font-size: 4.8rem;
+            opacity: 0.9;
+        }
       </style>
 <body class="py-3">
    <div class="d-flex">
@@ -178,15 +205,18 @@
                     <hr/>
                     <div>
                     <div class="card-text reference-links">
-                        <a  class="cursor-pointer" data-toggle="modal" data-target="#openDataPlateform">Open Data Plateform</a>
-                        <a  class="cursor-pointer" data-toggle="modal" data-target="#world">World ~ Climate Central</a>
-                        <a  class="cursor-pointer" data-toggle="modal" data-target="#india">India ~ Climate Central</a>
-                        <a  class="cursor-pointer" data-toggle="modal" data-target="#us">US ~ Climate Central</a>
-                        <a  class="cursor-pointer" data-toggle="modal" data-target="#germany">Germany ~ Climate Central</a>
-                        <a  class="cursor-pointer" data-toggle="modal" data-target="#denmark">Denmark ~ Climate Central</a>
-                        <a  class="cursor-pointer" data-toggle="modal" data-target="#russia">Russia ~ Climate Central</a>
+                        <button class="cursor-pointer iframe-link" data-toggle="modal" data-target="#openDataPlateform">Open Data Plateform</button>
+                        <button class="cursor-pointer iframe-link" data-toggle="modal" data-target="#world">World ~ Climate Central</button>
+                        <button class="cursor-pointer iframe-link" data-toggle="modal" data-target="#india">India ~ Climate Central</button>
+                        <button class="cursor-pointer iframe-link" data-toggle="modal" data-target="#us">US ~ Climate Central</button>
+                        <button class="cursor-pointer iframe-link" data-toggle="modal" data-target="#germany">Germany ~ Climate Central</button>
+                        <button class="cursor-pointer iframe-link" data-toggle="modal" data-target="#denmark">Denmark ~ Climate Central</button>
+                        <button class="cursor-pointer iframe-link" data-toggle="modal" data-target="#russia">Russia ~ Climate Central</button>
                         <div class="modal border-radius-10px fade show" id="openDataPlateform" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered" role="document">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
                                 <div class="modal-content">
                                     <iframe class="ext-links border-radius-10px" allow="fullscreen 'src'" frameBorder="0" src="https://data.footprintnetwork.org/?_ga=2.188711912.1762111747.1665640712-1402344740.1665640712#/" title="Climate Central | Comparison: long-term sea level outcomes" >
                                     </iframe>
@@ -195,6 +225,9 @@
                         </div>
                         <div class="modal border-radius-10px fade show" id="world" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered" role="document">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
                                 <div class="modal-content">
                                     <iframe class="ext-links border-radius-10px" src="https://data.footprintnetwork.org/?_ga=2.188711912.1762111747.1665640712-1402344740.1665640712#/countryTrends?cn=5001&type=BCtot,EFCtot" frameborder="0"></iframe>
                                 </div>
@@ -202,6 +235,9 @@
                         </div>
                         <div class="modal border-radius-10px fade show" id="india" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered" role="document">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
                                 <div class="modal-content">
                                 <iframe class="ext-links border-radius-10px" src="https://data.footprintnetwork.org/?_ga=2.188711912.1762111747.1665640712-1402344740.1665640712#/countryTrends?type=BCtot,EFCtot&cn=100" title="Embed Mumbai Sea Level Rise Comparison" frameborder="0"></iframe>
                                 </div>
@@ -209,6 +245,9 @@
                         </div>
                         <div class="modal border-radius-10px fade show" id="us" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered" role="document">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
                                 <div class="modal-content">
                                 <iframe class="ext-links border-radius-10px" src="https://data.footprintnetwork.org/?_ga=2.188711912.1762111747.1665640712-1402344740.1665640712#/countryTrends?type=BCtot,EFCtot&cn=231" title="Embed Dubai Sea Level Rise Comparison" frameborder="0"></iframe>
                                 </div>
@@ -216,6 +255,9 @@
                         </div>
                         <div class="modal border-radius-10px fade show" id="germany" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered" role="document">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
                                 <div class="modal-content">
                                 <iframe class="ext-links border-radius-10px" src="https://data.footprintnetwork.org/?_ga=2.188711912.1762111747.1665640712-1402344740.1665640712#/countryTrends?type=BCtot,EFCtot&cn=79" title="Embed St. Petersburg Sea Level Rise Comparison" frameborder="0"></iframe>
                                 </div>
@@ -223,6 +265,9 @@
                         </div>
                         <div class="modal border-radius-10px fade show" id="denmark" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered" role="document">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
                                 <div class="modal-content">
                                 <iframe class="ext-links border-radius-10px" src="https://data.footprintnetwork.org/?_ga=2.188711912.1762111747.1665640712-1402344740.1665640712#/countryTrends?type=BCtot,EFCtot&cn=54" title="Embed St. Petersburg Sea Level Rise Comparison" frameborder="0"></iframe>
                                 </div>
@@ -230,6 +275,9 @@
                         </div>
                         <div class="modal border-radius-10px fade show" id="russia" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered" role="document">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
                                 <div class="modal-content">
                                 <iframe class="ext-links border-radius-10px" src="https://data.footprintnetwork.org/?_ga=2.188711912.1762111747.1665640712-1402344740.1665640712#/countryTrends?type=BCtot,EFCtot&cn=185" title="Embed St. Petersburg Sea Level Rise Comparison" frameborder="0"></iframe>
                                 </div>
