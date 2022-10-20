@@ -12,7 +12,7 @@
         <script src="https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.js"></script>
         <style>
         @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
-        body { margin: 0; padding: 0;background-image:url(bootstrap/images/background.png);    
+        body { margin: 0; padding: 0;background-image:url(bootstrap/images/background.png);
           background-repeat: no-repeat;
           background-attachment: fixed;
           background-size: cover; }
@@ -167,7 +167,7 @@
       'range': [-1, 2],
       'horizon-blend': 0,
       'space-color':'transparent'
-      }); 
+      });
     });
 
     // The following values can be changed to control rotation speed:

@@ -133,8 +133,8 @@
             </h1>
             <div class="text-justify fs-18 pb-3 lh-1-8 card-text text-238095 font-cursive">
             Global climate change refers to the average long-term changes over the entire Earth. These include warming temperatures and changes in precipitation, as well as the effects of Earth’s warming, such as rising sea levels, shrinking glaciers, ice melting at a faster rate than usual, frequent droughts and many more environmental events.
-            
-            Climate change is one of the most complex issues and the key global challenge of our time and refers to long-term changes in temperatures and weather patterns.  Climate change is primarily caused by the accumulation of greenhouse gases in the atmosphere, trapping the sun’s heat. This process is commonly known as the greenhouse effect.  The major driver of climate change since the mid-twentieth century has been the increasing levels of greenhouse gases in the atmosphere due to human activities. 
+
+            Climate change is one of the most complex issues and the key global challenge of our time and refers to long-term changes in temperatures and weather patterns.  Climate change is primarily caused by the accumulation of greenhouse gases in the atmosphere, trapping the sun’s heat. This process is commonly known as the greenhouse effect.  The major driver of climate change since the mid-twentieth century has been the increasing levels of greenhouse gases in the atmosphere due to human activities.
             </div>
 
             <div class="text-justify fs-18 pb-0 lh-1-8 card-text text-238095 font-cursive">

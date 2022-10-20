@@ -226,7 +226,7 @@
             Climate change is happening. These real, observable changes are what we call climate change impacts because they are the visible ways that climate change is affecting the Earth. For example, many places have experienced changes in rainfall, more frequent natural disasters such as more severe droughts in many regions.  Deserts are expanding reducing land for growing food, while heat waves and wildfires are becoming more common.
             The planet's oceans and glaciers have also experienced changes—oceans are warming and the increased warming in the Arctic has contributed to melting permafrost, glacial retreat and sea ice loss cause sea levels to rise, threatening coastal and island communities.
             </div>
-          
+
         </div>
 
         <div class="mx-4 font-cursive">
@@ -263,7 +263,7 @@
                             <img class="sub-module-nav-img mr-3" src="bootstrap/images/loss of species.png" alt="">
                             <a class="nav-link mx-2" id="v-pills-fourth-tab" data-bs-toggle="pill" href="#v-pills-fourth" role="tab" aria-controls="v-pills-fourth" aria-selected="false" tabindex="-1">Forest Fires </a>
                             </div>
-                        
+
                         </div>
                     </div>
                     <div class="col-8 lh-1-6">
@@ -320,7 +320,7 @@
                         “The impacts of climate change are increasingly part of our daily lives, and there is very little dedicated mental health support available for people and communities dealing with climate-related hazards and long-term risk,” said Dr Maria Neira, Director of the Department of Environment, Climate Change and Health at WHO.
                         </div>
                         <div class="text-center">
-                        <a href="bootstrap/images/health-climate-change.jpg" target="_blank"><img class="m-2 mt-4" style="width:50%" src="bootstrap/images/health-climate-change.jpg" alt=""></a> 
+                        <a href="bootstrap/images/health-climate-change.jpg" target="_blank"><img class="m-2 mt-4" style="width:50%" src="bootstrap/images/health-climate-change.jpg" alt=""></a>
                         </div>
                         <div>
                         <div class=" reference-links">
@@ -346,7 +346,7 @@
                     <div class="accordion-body">
                         <div class="text-238095">
                             <p class="py-2">
-                            People living in low-income urban areas with poor infrastructure, and, generally speaking, population groups with lower incomes and assets, are more exposed to climate impacts but have less capacity to face them. Women may be disproportionately impacted by climate change and are at a disadvantage 
+                            People living in low-income urban areas with poor infrastructure, and, generally speaking, population groups with lower incomes and assets, are more exposed to climate impacts but have less capacity to face them. Women may be disproportionately impacted by climate change and are at a disadvantage
                             when expensive adaptation measures are required. At the same time, women are key actors in adaptation and more generally sustainable practices. Unemployed and socially marginalised people are among the most vulnerable to climate risks.
                             </p>
                             <p class="">
@@ -390,7 +390,7 @@
                             <img class="sub-module-nav-img mr-3" src="bootstrap/images/loss of species.png" alt="">
                             <a class="nav-link" id="v-pills-fourth-tab" data-bs-toggle="pill" href="#v-pills-fourth" role="tab" aria-controls="v-pills-fourth" aria-selected="false" tabindex="-1">Forest Fires </a>
                             </div>
-                        
+
                         </div>
                     </div>
                     <div class="col-8 lh-1-6">
