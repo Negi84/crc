@@ -171,10 +171,6 @@
             font-size: 4.8rem;
             opacity: 0.9;
         }
-        /* .accordion-button:focus{
-            border-color: transparent!important;
-        } */
-
         .accordion{
             --bs-accordion-active-bg: transparent;
             --bs-accordion-active-color:#238095;
@@ -362,64 +358,6 @@
 
         </div>
     </div>
-
-        <!-- <div class="">
-            <div class="card-body p-3 px-5">
-                <h4 class="card-title mb-4 pb-3 text-uppercase" style="color:#0d7b95!important">Natural Health Social Business</h4>
-                <div class="d-flex">
-                    <div class="col-4 pl-0 pr-2 mr-2">
-                        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-
-                            <div class="d-flex flex-row justify-space-between align-items-center mb-4">
-                            <img class="sub-module-nav-img mr-3" src="bootstrap/images/Hotter Temperature.png" alt="">
-                            <a class="nav-link mb-2 active" id="v-pills-first-tab" data-bs-toggle="pill" href="#v-pills-first" role="tab" aria-controls="v-pills-first" aria-selected="true">
-                            Hotter temperatures  </a>
-                            </div>
-
-                            <div class="d-flex flex-row justify-space-between align-items-center mb-4">
-                            <img  class="sub-module-nav-img mr-3" src="bootstrap/images/increased drought.png" alt="">
-                            <a class="nav-link mb-2" id="v-pills-second-tab" data-bs-toggle="pill" href="#v-pills-second" role="tab" aria-controls="v-pills-second" aria-selected="false" tabindex="-1">Increased drought </a>
-                            </div>
-
-                            <div class="d-flex flex-row justify-space-between align-items-center mb-4">
-                            <img class="sub-module-nav-img mr-3" src="bootstrap/images/a warming rising ocean.png" alt="">
-                            <a class="nav-link mb-2" id="v-pills-third-tab" data-bs-toggle="pill" href="#v-pills-third" role="tab" aria-controls="v-pills-third" aria-selected="false" tabindex="-1">Marine Environment </a>
-                            </div>
-
-                            <div class="d-flex flex-row justify-space-between align-items-center mb-4">
-                            <img class="sub-module-nav-img mr-3" src="bootstrap/images/loss of species.png" alt="">
-                            <a class="nav-link" id="v-pills-fourth-tab" data-bs-toggle="pill" href="#v-pills-fourth" role="tab" aria-controls="v-pills-fourth" aria-selected="false" tabindex="-1">Forest Fires </a>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="col-8 lh-1-6">
-                        <div class="tab-content  text-605f5f text-justify mt-4 mt-md-0" id="v-pills-tabContent">
-                            <div class="tab-pane fade active show" id="v-pills-first" role="tabpanel" aria-labelledby="v-pills-first-tab">
-                                <p>
-                                As greenhouse gas concentrations rise, so does the global surface temperature. The last decade, 2011-2021, is the warmest on record. Since the 1980s, each decade has been warmer than the previous one. Nearly all land areas are seeing more hot days and heat waves. Higher temperatures increase heat-related illnesses and make working outdoors more difficult. Temperatures in the Arctic have warmed at least twice as fast as the global average.
-                                </p>
-                            </div>
-                            <div class="tab-pane fade" id="v-pills-second" role="tabpanel" aria-labelledby="v-pills-second-tab">
-                                <p>
-                                Increase in temperature and erratic weather patterns have resulted in sudden and devastating droughts. Regions like east Africa have been severely affected.
-                                </p>
-                            </div>
-                            <div class="tab-pane fade" id="v-pills-third" role="tabpanel" aria-labelledby="v-pills-third-tab">
-                                <p>
-                                The impacts of climate change, such as increasing sea surface temperatures, ocean acidification and shifts in currents and wind patterns will significantly alter the physical and biological make-up of the oceans. Changes in temperatures and ocean circulation have the potential to change geographical fish distribution.
-                                </p>
-                            </div>
-                            <div class="tab-pane fade" id="v-pills-fourth" role="tabpanel" aria-labelledby="v-pills-fourth-tab">
-                                <p>
-                                Wildfires start more easily and spread more rapidly when conditions are hotter.
-                                </p>
-                                    </div>
-                                </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
     </div>
     <div class="col-3 my-3 reference-div">
             <div class="card bg-white">
@@ -478,11 +416,6 @@
 
 
                         <a href="https://phys.org/news/2021-06-climate-impacts-nature.html" target="_blank">https://phys.org/news/2021-06-climate-impacts-nature.html</a>
-
-                        <!-- <a  href="bootstrap/pdfs/03_Technical-Summary-TS_V2.pdf" target="_blank" style="text-decoration:none">
-                        <img src="bootstrap/images/pdf-logo.png" alt="" style="width:10%;">
-                        <p style="display:inline-block;padding:0px;margin: 0px;margin-left: 11px;">Technical Summary</p>
-                        </a> -->
 
                         <button class="cursor-pointer iframe-link mb-2" href="bootstrap/pdfs/03_Technical-Summary-TS_V2.pdf" target="_blank" onclick="location.href ='bootstrap/pdfs/03_Technical-Summary-TS_V2.pdf' ">
                         <div>

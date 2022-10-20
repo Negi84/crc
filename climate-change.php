@@ -71,9 +71,6 @@
         </style>
       </head>
 <body>
-  <!-- <div class="climate-change-background">
-    <img src="bootstrap/images/background.png" alt="">
-  </div> -->
 <div class="container mb-3">
     <div class="row">
         <div class="col-sm-12 col-md-12 mb-2">

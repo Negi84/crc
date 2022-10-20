@@ -155,9 +155,6 @@
                     <div class="py-1">
                     <iframe src="https://www.youtube.com/embed/QlQ-MEZgRGY" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
-                    <!-- <div class="py-1">
-                    <iframe src="https://www.youtube.com/embed/pLU8v8fAw7" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div> -->
                     <div class="py-1">
                     <iframe src="https://www.youtube.com/embed/g9uLN8oRbMw" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
