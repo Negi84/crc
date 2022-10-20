@@ -1,75 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Climate Change</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="bootstrap/css/bootstraps.min.css">
-        <link rel="stylesheet" href="bootstrap/css/main.css">
-        <script src="bootstrap/js/jquery.slim.min.js"></script>
-        <script src="bootstrap/js/popper.min.js"></script>
-        <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
-        <link href="https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.css" rel="stylesheet">
-        <script src="https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.js"></script>
-        <style>
-        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
-        body { margin: 0; padding: 0;background-image:url(bootstrap/images/background.png);
-          background-repeat: no-repeat;
-          background-attachment: fixed;
-          background-size: cover; }
-        #map { position: absolute; top: 0; bottom: 0; width: 100%; }
-        .mapboxgl-ctrl-logo {
-            display: none !important;
-        }
-        .mapboxgl-ctrl-bottom-right{
-          display: none!important;
-        }
-        .mapboxgl-ctrl-bottom-left{
-          display: none!important;
-        }
-        .mapboxgl-canvas {
-            position: absolute;
-            left: 0;
-            top: 0%!important;
-        }
-        a:hover {
-            color: #0056b3;
-            text-decoration: none!important;}
-        .lead{
-          color:#007bff!important;
-        }
-        .head-title{
-          text-align: center;
-          font-size: 2em;
-          text-transform: uppercase;
-          font-weight: 900;
-          font-family:'Oswald', sans-serif;
-        }
-        a{
-          font-family: sans-serif;
-          color:#1d90bf;
-          font-weight: 800;
-        }
-        .climate-change-background, .climate-change-background img{
-          width: 100%;
-          min-height: 100%;
-        }
-        .climate-change-background{
-          position:absolute;
-        }
-        .heading-green{
-          color: #51ca51;
-        }
-        .head-title div{
-          color: #57b9e3;
-        }
-        .head-title div span{
-          color: #1e9dd0;
-        }
-        .mapboxgl-canvas {
-        left: -5%!important;
-      }
-        </style>
-      </head>
+<head>
+  
+    <title>Climate Change</title>
+    <meta charset="utf-8">
+    
+    <link rel="stylesheet" href="bootstrap/css/bootstraps.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.js"></script>
+
+    <link href="bootstrap/css/climate-change.css" rel="stylesheet">
+</head>
 <body>
 <div class="container mb-3">
     <div class="row">
