@@ -3,7 +3,7 @@
     <head>
         <title>Climate Change</title>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="bootstrap/css/bootstraps.min.css">
         <link rel="stylesheet" href="bootstrap/css/main.css">
         <script src="bootstrap/js/jquery.slim.min.js"></script>
         <script src="bootstrap/js/popper.min.js"></script>
@@ -12,7 +12,10 @@
         <script src="https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.js"></script>
         <style>
         @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
-        body { margin: 0; padding: 0; }
+        body { margin: 0; padding: 0;background-image:url(bootstrap/images/background.png);    
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: cover; }
         #map { position: absolute; top: 0; bottom: 0; width: 100%; }
         .mapboxgl-ctrl-logo {
             display: none !important;
@@ -68,9 +71,9 @@
         </style>
       </head>
 <body>
-  <div class="climate-change-background">
+  <!-- <div class="climate-change-background">
     <img src="bootstrap/images/background.png" alt="">
-  </div>
+  </div> -->
 <div class="container mb-3">
     <div class="row">
         <div class="col-sm-12 col-md-12 mb-2">
@@ -90,7 +93,8 @@
           <img class="mr-3" src="bootstrap/images/4.png" alt="">
           <div class="d-flex flex-column">
             <h3 class="pt-2"> <a href="what-is-climate-change-and-how-does-it-affect-us"> What is climate change  and <br><span class="heading-green">how does it affect us?</span>  </a> </h3>
-            <p>Climate change may be due to natural internal processes or external forcings such as modulations of the solar cycles, volcanic eruptions, and persistent anthropogenic changes in the composition of the atmosphere or in land use.</p>
+            <p>Climate change refers to a change in the state of the climate that can be identified (e.g., by using statistical tests) by changes in the mean and/or the variability of its properties, and that persists for an extended period, typically decades or longer.
+            </p>
           </div>
         </div>
 
@@ -98,15 +102,16 @@
           <img class="mr-3" src="bootstrap/images/5.png" alt="">
           <div class="d-flex flex-column">
             <h3 class="pt-2"><a href="why-is-the-climate-changing">Why is the <br> <span class="heading-green">Climate changing?</span> </a></h3>
-            <p>There are two main types of external sources leading to climate change. Some external factors occur naturally and contribute to the overall natural variability of the climate system, such as solar radiation and volcanism </p>
+            <p>There are two main types of external sources leading to climate change. Some external factors occur naturally and contribute to the overall natural variability of the climate system, such as solar radiation and volcanism.</p>
           </div>
         </div>
 
         <div class="d-flex flex-row text-box pb-2">
           <img class="mr-3" src="bootstrap/images/1.png" alt="">
           <div class="d-flex flex-column">
-            <h3 class="pt-2"> <a href="impact-of-climate-changes">Impact of  <br> <span class="heading-green">climate changes </span> </a> </h3>
-            <p>The planet's oceans and glaciers have also experienced changes—oceans are warming and the increased warming in the Arctic has contributed to melting permafrost, glacial retreat and sea ice loss cause sea levels to rise, threatening coastal and island communities.</p>
+            <h3 class="pt-2"> <a href="impact-of-climate-changes">Impacts of  <br> <span class="heading-green">climate changes </span> </a> </h3>
+            <p>Climate change is happening. These real, observable changes are what we call climate change impacts​​​​​​ because they are the visible ways that climate change is affecting the Earth.
+            </p>
           </div>
       </div>
 
@@ -129,7 +134,7 @@
         <div class="d-flex flex-row text-box pb-2">
           <div class="d-flex flex-column">
             <h3 class="pt-2"><a href="climate-change-adaptation-cand-mitigation"> Climate Change <br> <span class="heading-green">adaptation and mitigation</span>  </a></h3>
-            <p>Three broad categories of action against Climate Change are: cutting emissions, adapting to climate impacts, and financing required adjustments.  2022 is a critical year for action on mitigation and adaptation.</p>
+            <p>Three broad categories of action against Climate Change are: cutting emissions, adapting to climate impacts, and financing required adjustments.</p>
           </div>
           <img class="ml-3" src="bootstrap/images/6.png" alt="">
         </div>
@@ -137,7 +142,7 @@
         <div class="d-flex flex-row text-box">
         <div class="d-flex flex-column">
           <h3 class="pt-2"> <a href="climate-change-vulnerability">  Climate change <br> <span class="heading-green">vulnerability</span> </a></h3>
-          <p> The severity of impacts from extreme and non-extreme weather and climate events is highly dependent on the degree of vulnerability and exposure to these events. </p>
+          <p> The severity of impacts from extreme and non-extreme weather and climate events is highly dependent on the degree of vulnerability and exposure to these events.</p>
         </div>
         <img class="ml-3" src="bootstrap/images/2.png" alt="">
       </div>

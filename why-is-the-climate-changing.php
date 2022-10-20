@@ -93,7 +93,7 @@
             font-size: 16px;
         }
         .reference-links a{
-            display: block;
+            display: inline;
             font-family: sans-serif;
             font-style: italic;
             color: black!important;
@@ -169,22 +169,27 @@
             color: white;
             font-size: 4.8rem;
             opacity: 0.9;
+            background: transparent;
+            border: 0px;
+        }
+        .font-cursive{
+            font-family: cursive;
         }
       </style>
 <body class="py-3">
    <div class="d-flex">
     <div class="col-9">
-        <div class="d-flex flex-column p-3 px-5 mb-4">
+        <div class="d-flex flex-column p-3 px-5 mb-4 font-cursive">
             <h1 class="pb-4 main-header card-title">
             Why is the Climate changing?
             </h1>
             <div class="text-justify fs-18 pb-3 lh-1-8 card-text text-238095">
-            There have been previous periods of climate change, but the current changes are distinctly more rapid and not due to natural causes.    Instead, they are caused by the emission of greenhouse gases, mostly carbon dioxide (CO2) and methane. Burning fossil fuels for energy production creates most of these emissions. Certain agricultural practices, industrial processes, transport, buildings, landfills, and forest loss are additional sources.  Greenhouse gases are transparent to sunlight, allowing it to warm the Earth's surface. When the earth emits this heat as infrared radiation, it is absorbed by the gases, trapping the heat near the earth's surface and causing global warming and climate change.
+            There have been previous periods of climate change, but the current changes are distinctly more rapid and not due to natural causes.    Instead, they are caused by the emission of greenhouse gases, mostly carbon dioxide (CO2) and methane. Burning fossil fuels for energy production creates most of these emissions. Certain agricultural practices, industrial processes, transport, buildings, landfills, and forest loss are additional sources.  Greenhouse gases are transparent to sunlight, allowing it to warm the Earth's surface. When the earth emits this heat as infrared radiation, it is absorbed by the gases, trapping the heat near the earth's surface and causing global warming and climate change. 
             </div>
-
             <div class="text-justify fs-18 pb-0 lh-1-8 card-text text-238095">
             It is unequivocal that human influence has warmed the atmosphere, ocean and land. Widespread and rapid changes in the atmosphere, ocean, cryosphere, and biosphere have occurred. (cc. AR6_WGI_SPM)
-
+            </div>
+            <div class="text-justify fs-18 pb-0 lh-1-8 card-text text-238095">
             Human activities are estimated to have caused approximately 1.0°C of global warming5 above pre-industrial levels, with a likely range of 0.8°C to 1.2°C. Global warming is likely to reach 1.5°C between 2030 and 2052 if it continues to increase at the current rate. (cc. SR15)
             </div>
         </div>
@@ -283,6 +288,9 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    <div class="reference-links">
+                    <a href="https://climate.nasa.gov/earth-now/#/vitalsign?vitalsign=carbon_dioxide&altid=0&animating=f&start=&end=" target="_blank"> Earth Now(Climate NASA)</a>
                     </div>
                     </div>
                 </div>

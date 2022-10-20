@@ -169,17 +169,22 @@
             color: white;
             font-size: 4.8rem;
             opacity: 0.9;
+            background: transparent;
+            border: 0px;
+        }
+        .font-cursive{
+            font-family: cursive;
         }
       </style>
 <body class="py-3">
    <div class="d-flex">
     <div class="col-9">
-        <div class="d-flex flex-column p-3 px-5 mb-4">
+        <div class="d-flex flex-column p-3 px-5 mb-4 font-cursive">
             <h1 class="pb-4 main-header card-title">
             Severity of Climate Change 
             </h1>
             <div class="text-justify fs-18 pb-0 lh-1-8 card-text text-238095">
-            Recent climate changes are widespread, quick, and intensifying, and unprecedented for thousands of years. Without immediate, rapid, and large-scale reductions in greenhouse gas emissions, the goal of limiting warming to 1.5°C will be unattainable. Climate change is already affecting all regions of the world in a variety of ways, and changes will increase with further warming. Some changes in the climate system, such as sea-level rise, cannot be reversed; however, some changes could be slowed, and others halted by limiting warming. Limiting global warming will require strong, rapid, and sustained reductions in carbon dioxide, methane, and other greenhouse gases. 
+            Recent climate changes are widespread, quick, and intensifying, and unprecedented for thousands of years. Without immediate, rapid, and large-scale reductions in greenhouse gas emissions, the goal of limiting warming to 1.5°C will be unattainable. Climate change is already affecting all regions of the world in a variety of ways, and changes will increase with further warming. Some changes in the climate system, such as sea-level rise, cannot be reversed; however, some changes could be slowed, and others halted by limiting warming. Limiting global warming will require strong, rapid, and sustained reductions in carbon dioxide, methane, and other greenhouse gases.
             </div>
         </div>
     </div>
@@ -252,8 +257,16 @@
                                 </div>
                             </div>
                         </div>
+                        <div>
+                        <a href="bootstrap/images/indus-river-climate-change.png"><img class="w-100" src="bootstrap/images/indus-river-climate-change.png" alt="indus-river-climate-change"></a>   
                         <a href="https://climate.nasa.gov/images-of-change/?id=804#804-severe-monsoon-rains-cause-catastrophic-flooding-in-pakistan" target="_blank">https://climate.nasa.gov/images-of-change/?id=804#804-severe-monsoon-rains-cause-catastrophic-flooding-in-pakistan</a>
+                        </div>
+                       
+                        <div>
+                        <a href="bootstrap/images/peyto-glacier.png"><img class="w-100" src="bootstrap/images/peyto-glacier.png" alt="peyto-glacier"></a>
                         <a href="https://climate.nasa.gov/images-of-change/?id=803#803-declining-peyto-glacier-canada" target="_blank">https://climate.nasa.gov/images-of-change/?id=803#803-declining-peyto-glacier-canada</a>
+                        </div>
+                       
                         </div>
                     </div>
                 </div>
